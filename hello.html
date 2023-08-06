@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hello.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'nav-primaty': '#F85559',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="hello1  font-lato">
+        <div class="flex items-center   ">
+
+            <div class="lg:flex-1 flex items-center lg:gap-2 lg:py-[10px] ml-[30px] ">
+                <a href="index.html"><img src="images/logo.webp" alt=" "></a>
+
+            </div>
+
+
+            <div class="lg:flex-1 flex  lg:pl-[20px] lg:text-lg gap-1   text-white ">
+                <a class="btn btn-ghost normal-case  text-xl  ">PREMIUM TUTORS
+                </a>
+                <a href="hello3.html" class="btn btn-ghost normal-case  text-xl ">TUTOR REQUEST</a>
+            </div>
+
+            <div class=" flex-none gap-8">
+                <div class="flex gap-4 mr-[60px]">
+                    <a href="hello2.html"><button class="btn btn-outline border-white text-white">
+                        Register</button></a>
+                    <a href="hello.html"><button class="btn btn-outline border-white text-white">Login</button></a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- login page -->
+
+    <div class="login-box">
+        <div class="log-section para">
+            <form action="connect2.php" method="post">
+                <h2 class="log-container">Login</h2>
+                <hr class="hr-container">
+                <div class="input-box ss-input-box input-box-container">
+                    <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                    <label for="" class="label-container">Email</label><br>
+                    <input name="email" class="input-id" type="email" required>
+
+                </div>
+                <div class="input-box ss-input-box input-box-container">
+                    <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                    <label for="" class="label-container">Phone</label><br>
+                    <input name="phone" class="input-id" type="phone" required>
+
+                </div>
+                <div class="input-box ss-input-box input-box-container">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <label for="" class="label-container">Password</label><br>
+                    <input name="password" class="input-id" type="password" required>
+
+                </div>
+
+                <div class="remember-forgot-container"><button class="last-container" type="submit">Login</button></div>
+                <div class="register-link">
+                    <p class="link-container"><a class="remove-ancor" href="#">Click Here to Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

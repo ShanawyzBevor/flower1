@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="from.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'nav-primaty': '#F85559',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="hello1  font-lato">
+        <div class="flex items-center   ">
+
+            <div class="lg:flex-1 flex items-center lg:gap-2 lg:py-[10px] ml-[30px] ">
+                <a href="index.html"><img src="images/logo.webp" alt=" "></a>
+
+            </div>
+
+
+            <div class="lg:flex-1 flex  lg:pl-[20px] lg:text-lg gap-1   text-white ">
+                <a href="" class="btn btn-ghost normal-case  text-xl  ">PREMIUM TUTORS
+                </a>
+                <a href="hello3.html" class="btn btn-ghost normal-case  text-xl ">TUTOR REQUEST</a>
+            </div>
+
+            <div class=" flex-none gap-8">
+                <div class="flex gap-4 mr-[60px]">
+                    <a href="hello2.html"><button class="btn btn-outline border-white text-white">
+                        Register</button></a>
+                    <a href="hello.html"><button class="btn btn-outline border-white text-white">Login</button></a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- register section -->
+    <div class="form-secton">
+        <div class="form-sec1 hello1">
+
+            <form action="connect1.php" method="post">
+                <h2 class="reg-teacher">Are you looking for tutors?</h2>
+                <p class="p-tag">Then fill the form and tell which class/area you are looking for a tutor. After filling the form and submitting it, one of our representatives will contact you on the mobile number you provided within 24 hours.</p>
+
+
+
+                <div class="main-contain">
+                    <div class="login-regestration">
+
+                        <div class="input-box ">
+                            <label for="name">Name</label> <br>
+                            <input class="input-sec-teacher" type="text" placeholder="Enter name" name="name" required>
+                        </div>
+
+
+
+
+                        <div class="input-box">
+                            <label for="text">Tuition District</label> <br>
+                            <select name="selectMedium" id="" class="input-sec-teacher">
+                                        <option value="Select District">Select Medium</option>
+                                        <option value="Bangla medium">Bangla medium</option>
+                                        <option value="English medium">English medium</option>
+                                        <option value="English Version">English Version</option>
+                                        <option value="Religious study">Religious study</option>
+                                        <option value="Admission Test">Admission Test</option>
+                                    </select>
+                        </div>
+                        <div class="input-box">
+                            <label for="text">Select District</label> <br>
+                            <select name="District" id="" class="input-sec-teacher">
+                                        <option value="Select District">Select District</option>
+                                        <option value="dhaka">Dhaka</option>
+                                        <option value="khulna">Khulna</option>
+                                        <option value="rajshahi">Rajshahi</option>
+                                        <option value="feni">Feni</option>
+                                        <option value="tangail">Tangail</option>
+                                    </select>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                    <div class="login-regestration zip-registration">
+
+
+
+                        <div class="input-box teacher-container">
+                            <label for="name">Phone Number</label> <br>
+
+                            <input class="input-sec-teacher" type="tel" placeholder="Enter phone number" name="phoneNumber" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="text">Select Area </label> <br>
+                            <select name="Location" id="" class="input-sec-teacher">
+                                        <option value="SelectArea">Choose Area</option>
+                                        <option value="Mirpur">Mirpur</option>
+                                        <option value="Shyamoli">Shyamoli</option>
+                                        <option value="Dhanmondi">Dhanmondi</option>
+                                        <option value="Mohammadpur">Mohammadpur</option>
+                                        <option value="Uttara">Uttara</option>
+                                    </select>
+                        </div>
+                        <div class="input-box">
+                            <label for="text">Select class </label> <br>
+                            <select name="whichClass" id="" class="input-sec-teacher">
+                                        <option value="SelectArea">Choose Class</option>
+                                        <option value="Class 5">Class 5</option>
+                                        <option value="Class 6">Class 6</option>
+                                        <option value="Class 7">Class 7</option>
+                                        <option value="Class 8">Class 8</option>
+                                        <option value="Class 9">Class 9</option>
+                                        <option value="Class 10">Class 10</option>
+                                    </select>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="button-container">
+                    <a href="hello.css "><button type="submit" class="teacher-btn">Submit</button></a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

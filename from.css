@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-secton {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para {
+    background: linear-gradient(-30deg, #6c2a8c 50%, #a71678 0);
+}
+
+.hello1 {
+    background: linear-gradient(90deg, #540654, #cc0d85 50%, #540654 100%, #00d4ff 0);
+}
+
+.form-sec1 {
+    height: 500px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.main-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 20px;
+}
+
+.reg-teacher {
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-sec-teacher {
+    padding: 10px 0px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.teacher-btn {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+label {
+    color: rgb(214, 233, 217);
+}
+
+.gender-title {
+    color: white;
+}
+
+.reg-teacher {
+    color: white;
+    font-size: 30px;
+}
+
+.p-tag {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.hello1 {
+    background: linear-gradient(90deg, #540654, #cc0d85 50%, #540654 100%, #00d4ff 0);
+}
+
+.para {
+    background: linear-gradient(-30deg, #6c2a8c 50%, #a71678 0);
+}
+
+.para1 {
+    animation: bounce 6s infinite;
+    @keyframes bounce {
+        50%,
+        100% {
+            transform: translateY(-20%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+}
+
+.our-tutor1 {
+    font-weight: bold;
+    color: purple;
+}
